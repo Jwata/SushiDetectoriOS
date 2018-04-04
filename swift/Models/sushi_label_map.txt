@@ -1,0 +1,15 @@
+item {
+  id: 1
+  name: 'salmon'
+  display_name: 'salmon'
+}
+item {
+  id: 2
+  name: 'medium-fatty-tuna'
+  display_name: 'medium-fatty-tuna'
+}
+item {
+  id: 3
+  name: 'spotted-shad'
+  display_name: 'spotted-shad'
+}

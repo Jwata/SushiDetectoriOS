@@ -10,10 +10,6 @@
 		5365E49E1FB762BE0004EFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5365E48B1FB762BE0004EFFD /* Assets.xcassets */; };
 		5365E49F1FB762BE0004EFFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5365E48C1FB762BE0004EFFD /* LaunchScreen.storyboard */; };
 		5365E4A01FB762BE0004EFFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5365E48E1FB762BE0004EFFD /* Main.storyboard */; };
-		5365E4A11FB762BE0004EFFD /* op_inference_graph_rcnn.pb in Resources */ = {isa = PBXBuildFile; fileRef = 5365E4921FB762BE0004EFFD /* op_inference_graph_rcnn.pb */; };
-		5365E4A21FB762BE0004EFFD /* mscoco_label_map.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5365E4931FB762BE0004EFFD /* mscoco_label_map.txt */; };
-		5365E4A31FB762BE0004EFFD /* op_inference_graph_inv2.pb in Resources */ = {isa = PBXBuildFile; fileRef = 5365E4951FB762BE0004EFFD /* op_inference_graph_inv2.pb */; };
-		5365E4A41FB762BE0004EFFD /* op_inference_graph.pb in Resources */ = {isa = PBXBuildFile; fileRef = 5365E4971FB762BE0004EFFD /* op_inference_graph.pb */; };
 		5365E4A51FB762BE0004EFFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E4991FB762BE0004EFFD /* AppDelegate.swift */; };
 		5365E4A61FB762BE0004EFFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E49A1FB762BE0004EFFD /* ViewController.swift */; };
 		5365E4A91FB7660F0004EFFD /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E4A81FB7660F0004EFFD /* CameraPreviewView.swift */; };
@@ -25,17 +21,15 @@
 		53D01D971FB95D1D00AEAFC6 /* TensorflowUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53D01D961FB95D1D00AEAFC6 /* TensorflowUtils.mm */; };
 		53D01D9A1FB95DCF00AEAFC6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D01D991FB95DB600AEAFC6 /* Accelerate.framework */; };
 		53D01DA11FB961C200AEAFC6 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D01DA01FB961C200AEAFC6 /* libstdc++.tbd */; };
+		BBB3BB51206ECF6400452CC5 /* op_inference_graph.pb in Resources */ = {isa = PBXBuildFile; fileRef = BBB3BB50206ECF6400452CC5 /* op_inference_graph.pb */; };
+		BBB3BB53206ECF7300452CC5 /* sushi_label_map.txt in Resources */ = {isa = PBXBuildFile; fileRef = BBB3BB52206ECF7300452CC5 /* sushi_label_map.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5365E4701FB6D9E00004EFFD /* tensorflowiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tensorflowiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5365E4701FB6D9E00004EFFD /* SushiRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5365E48B1FB762BE0004EFFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5365E48D1FB762BE0004EFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5365E48F1FB762BE0004EFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5365E4921FB762BE0004EFFD /* op_inference_graph_rcnn.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = op_inference_graph_rcnn.pb; sourceTree = "<group>"; };
-		5365E4931FB762BE0004EFFD /* mscoco_label_map.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mscoco_label_map.txt; sourceTree = "<group>"; };
-		5365E4951FB762BE0004EFFD /* op_inference_graph_inv2.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = op_inference_graph_inv2.pb; sourceTree = "<group>"; };
-		5365E4971FB762BE0004EFFD /* op_inference_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = op_inference_graph.pb; sourceTree = "<group>"; };
 		5365E4991FB762BE0004EFFD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5365E49A1FB762BE0004EFFD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5365E49C1FB762BE0004EFFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +50,8 @@
 		53D01D991FB95DB600AEAFC6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		53D01D9E1FB961A800AEAFC6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		53D01DA01FB961C200AEAFC6 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		BBB3BB50206ECF6400452CC5 /* op_inference_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = op_inference_graph.pb; sourceTree = "<group>"; };
+		BBB3BB52206ECF7300452CC5 /* sushi_label_map.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sushi_label_map.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +80,7 @@
 		5365E4711FB6D9E00004EFFD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5365E4701FB6D9E00004EFFD /* tensorflowiOS.app */,
+				5365E4701FB6D9E00004EFFD /* SushiRecognition.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,37 +110,11 @@
 		5365E4901FB762BE0004EFFD /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5365E4911FB762BE0004EFFD /* faster_rcnn_resnet101_coco_11_06_2017 */,
-				5365E4931FB762BE0004EFFD /* mscoco_label_map.txt */,
-				5365E4941FB762BE0004EFFD /* ssd_inception_v2_coco_11_06_2017 */,
-				5365E4961FB762BE0004EFFD /* ssd_mobilenet_v1_coco_11_06_2017 */,
+				BBB3BB52206ECF7300452CC5 /* sushi_label_map.txt */,
+				BBB3BB4A206ECC0E00452CC5 /* ssd_mobilenet_v1_sushi */,
 			);
 			path = Models;
 			sourceTree = SOURCE_ROOT;
-		};
-		5365E4911FB762BE0004EFFD /* faster_rcnn_resnet101_coco_11_06_2017 */ = {
-			isa = PBXGroup;
-			children = (
-				5365E4921FB762BE0004EFFD /* op_inference_graph_rcnn.pb */,
-			);
-			path = faster_rcnn_resnet101_coco_11_06_2017;
-			sourceTree = "<group>";
-		};
-		5365E4941FB762BE0004EFFD /* ssd_inception_v2_coco_11_06_2017 */ = {
-			isa = PBXGroup;
-			children = (
-				5365E4951FB762BE0004EFFD /* op_inference_graph_inv2.pb */,
-			);
-			path = ssd_inception_v2_coco_11_06_2017;
-			sourceTree = "<group>";
-		};
-		5365E4961FB762BE0004EFFD /* ssd_mobilenet_v1_coco_11_06_2017 */ = {
-			isa = PBXGroup;
-			children = (
-				5365E4971FB762BE0004EFFD /* op_inference_graph.pb */,
-			);
-			path = ssd_mobilenet_v1_coco_11_06_2017;
-			sourceTree = "<group>";
 		};
 		5365E4981FB762BE0004EFFD /* App */ = {
 			isa = PBXGroup;
@@ -193,6 +163,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BBB3BB4A206ECC0E00452CC5 /* ssd_mobilenet_v1_sushi */ = {
+			isa = PBXGroup;
+			children = (
+				BBB3BB50206ECF6400452CC5 /* op_inference_graph.pb */,
+			);
+			path = ssd_mobilenet_v1_sushi;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,7 +189,7 @@
 			);
 			name = tensorflowiOS;
 			productName = tensorflowiOS;
-			productReference = 5365E4701FB6D9E00004EFFD /* tensorflowiOS.app */;
+			productReference = 5365E4701FB6D9E00004EFFD /* SushiRecognition.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -254,13 +232,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5365E4A21FB762BE0004EFFD /* mscoco_label_map.txt in Resources */,
-				5365E4A11FB762BE0004EFFD /* op_inference_graph_rcnn.pb in Resources */,
 				5365E49E1FB762BE0004EFFD /* Assets.xcassets in Resources */,
 				5365E4A01FB762BE0004EFFD /* Main.storyboard in Resources */,
 				5365E49F1FB762BE0004EFFD /* LaunchScreen.storyboard in Resources */,
-				5365E4A31FB762BE0004EFFD /* op_inference_graph_inv2.pb in Resources */,
-				5365E4A41FB762BE0004EFFD /* op_inference_graph.pb in Resources */,
+				BBB3BB51206ECF6400452CC5 /* op_inference_graph.pb in Resources */,
+				BBB3BB53206ECF7300452CC5 /* sushi_label_map.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G8WMBH6ZQE;
+				DEVELOPMENT_TEAM = HR35Z88MVW;
 				HEADER_SEARCH_PATHS = (
 					"$(TENSORFLOW_ROOT)/tensorflow/contrib/makefile/downloads/nsync/public/",
 					"$(TENSORFLOW_ROOT)/tensorflow/contrib/makefile/gen/proto",
@@ -458,8 +434,8 @@
 					"$(TENSORFLOW_ROOT)/tensorflow/contrib/makefile/downloads/nsync/builds/${CURRENT_ARCH}.ios.c++11/nsync.a",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.username.tensorflowiOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jwata.sushi-recognition";
+				PRODUCT_NAME = SushiRecognition;
 				SWIFT_OBJC_BRIDGING_HEADER = "Tensorflow/tensorflowiOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -474,7 +450,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G8WMBH6ZQE;
+				DEVELOPMENT_TEAM = HR35Z88MVW;
 				HEADER_SEARCH_PATHS = (
 					"$(TENSORFLOW_ROOT)/tensorflow/contrib/makefile/downloads/nsync/public/",
 					"$(TENSORFLOW_ROOT)/tensorflow/contrib/makefile/gen/proto",
@@ -497,8 +473,8 @@
 					"$(TENSORFLOW_ROOT)/tensorflow/contrib/makefile/downloads/nsync/builds/${CURRENT_ARCH}.ios.c++11/nsync.a",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.username.tensorflowiOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jwata.sushi-recognition";
+				PRODUCT_NAME = SushiRecognition;
 				SWIFT_OBJC_BRIDGING_HEADER = "Tensorflow/tensorflowiOS-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
